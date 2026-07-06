@@ -303,7 +303,7 @@
 
 	function makeTimer() {
 
-		var endTime = new Date("27 February 2023 4:30:00 UTC-05:00");			
+		var endTime = new Date("16 July 2026 13:30:00 UTC+03:00");
 		endTime = (Date.parse(endTime) / 1000);
 
 		var now = new Date();
@@ -320,10 +320,10 @@
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
 
-		$("#days").html(days + "<span>Days</span>");
-		$("#hours").html(hours + "<span>Hours</span>");
-		$("#minutes").html(minutes + "<span>Minutes</span>");
-		$("#seconds").html(seconds + "<span>Seconds</span>");		
+		$("#days").html(days + "<span>Дней</span>");
+		$("#hours").html(hours + "<span>Часов</span>");
+		$("#minutes").html(minutes + "<span>Минут</span>");
+		$("#seconds").html(seconds + "<span>Секунд</span>");		
 
 }
 
